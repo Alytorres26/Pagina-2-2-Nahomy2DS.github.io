@@ -1,9 +1,14 @@
-<!DOCTYPE html> 
+<!DOCTYPE html> <!-- Indica que es un documento HTML, de lo contrario si no lo
+ponemos, lo interpretaria como codigo antiguo antes de los 90's Quirks mode,
+aparecerian codigos antiguos -->
 <html lang="es">
 
-
+<!--invoca al archivo style.css que contiene todas las configuraciones de estilos de
+la página-->
 <link rel="stylesheet" href="styles.css">
 
+<!--Encabezado, el valor atributo id invoca a una funcion del archivo style.css para
+dar el formato del menu-->
 <header id="mi-encabezado">
 
 <title>CURSO HTML</title>
@@ -22,7 +27,8 @@
 
 </header>
 
-
+<!--Cuerpo del HTML. Las configuraciones de estilos se encuentran en el archivo
+style.css-->
 <body>
 
 <main>
@@ -32,7 +38,9 @@ e información que desees...</span>
 <tr><td> <hr>
 </hr></h2>
 <p>
-
+Por favor contactanos:<p>
+Telefono: 60661749
+Correo: 10268068@clases.edu.sv
 
 </p>
 
@@ -41,10 +49,13 @@ e información que desees...</span>
 </section>
 </main>
 
+<!--Pie de pagina-->
+<!--el atributo Class="footer" invoca a una funcion del archivo style.css para dar
+el formato del pie de pagina-->
+<div class="footer">Derechos reservados © 2024 Raquel Medrano</div>
 
-<div class="footer">
-
-
+<!--Invoca al archivo script.js que contiene la funcion que controla el
+comportamiento del menu-->
 <script src="script.js"></script>
 </body>
 </html>
