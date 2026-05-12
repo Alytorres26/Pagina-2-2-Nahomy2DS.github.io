@@ -86,7 +86,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
-background-color: rgb(5,43,150); /* Cambia el color de fondo a azul */
+background-color: rgb(150, 5, 77); /* Cambia el color de fondo a azul */
 padding: 10rem;
 color: #fffdfd;
 color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
